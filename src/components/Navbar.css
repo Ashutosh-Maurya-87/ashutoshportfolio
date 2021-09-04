@@ -1,0 +1,10 @@
+.list-item{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 30px;
+}
