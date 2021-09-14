@@ -8,7 +8,7 @@ function App() {
     <div
       style={{
         backgroundImage: `url(${background})`,
-        backgroundSize: "100%",
+        backgroundSize: "100% 100%",
         width: "100%",
         backgroundRepeat: "no-repeat",
       }}
