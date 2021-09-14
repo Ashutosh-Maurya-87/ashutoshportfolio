@@ -6,13 +6,19 @@ const Info = () => {
     <>
       <div className="info">
         <h3>this is info component</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br /> Minima in facere quidem ullam veritatis,
-          <br /> ut enim at iusto voluptatem recusandae id laboriosam numquam
-          blanditiis itaque
-          <br /> facilis incidunt hic iste possimus.
-        </p>
+        <div
+          className="card"
+          style={{ width: "18rem", backgroundColor: "red" }}
+        >
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            Go somewhere
+          </div>
+        </div>
       </div>
     </>
   );
