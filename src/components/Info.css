@@ -1,4 +1,14 @@
 .info {
-  margin: 3% 0% 2% 4%;
+  margin: 5% 2% 2% 4%;
   color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-body {
+  margin-top: 5%;
+}
+.card:hover {
+  width: 10rem;
+  background-color: black;
 }
