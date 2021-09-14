@@ -16,10 +16,6 @@ function App() {
       <Navbar />
       <Info />
       <h2>this is a portfolio</h2>
-      <h2>this is a portfolio</h2>
-      <h2>this is a portfolio</h2>
-      <h2>this is a portfolio</h2>
-      <h2>this is a portfolio</h2>
     </div>
   );
 }
