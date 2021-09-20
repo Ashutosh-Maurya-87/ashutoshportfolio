@@ -1,8 +1,9 @@
 .list-item {
+  padding: 5px;
   background-color: rgb(14, 12, 12);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: white;
   text-align: center;
   list-style-type: none;
