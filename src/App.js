@@ -1,21 +1,12 @@
 import "./App.css";
 import Info from "./components/Info";
 import Navbar from "./components/Navbar";
-import background from "./images/backgroundImage.jpg";
 
 function App() {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundSize: "100% 100%",
-        width: "100%",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <div>
       <Navbar />
       <Info />
-      <h2>this is a portfolio</h2>
     </div>
   );
 }
