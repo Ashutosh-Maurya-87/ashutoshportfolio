@@ -8,7 +8,7 @@ const Navbar = () => {
         <header>
           <ul className="list-item">
             <li className="nav-image">
-              <img src={img} alt="img" />
+              <img src={img} alt="img" width="100px" height="50px" />
             </li>
             <li>Home</li>
             <li>Contact</li>
