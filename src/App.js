@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Info />
+      <Info name="Ashutosh Maurya" education="BCA" />
     </div>
   );
 }
